@@ -1,0 +1,176 @@
+{
+    "t": "True",
+    "f": "False",
+    "and": "and",
+    "d": "day",
+    "h": "hour",
+    "min": "minute",
+    "sec": "second",
+    
+    "index":{
+        "can_not_execute_DM": "I can't execute that command inside DMs!",
+        "no_argument": "you didn't provide any arguments!",
+        "proper_argument": "The proper usage would be:",
+        "cooldown1": "Please wait",
+        "cooldown2": "more second(s) before reusing the command!",
+        "error": "There was an error trying to execute that command!",
+        "error_terminal": "See terminal for error",
+        "error_or": "OR",
+        "error_bot_owner": "contact the bot owner",
+        "perm_req": "Error, you does not meet the required permissoins to use this command!"
+    },
+
+
+    "Commands": "all the commands here:",
+
+    "ban":{
+        "description": "Bans user from the server",
+        "have_tag": "From the server, you have successfully banned:",
+        "cant_kick": "I was unable to ban the member \nEither due to missing permissions or role hierarchy",
+        "no_user_found": "That user isn't in this server!",
+        "no_tag": "You need to tag a user in order to ban them!"
+    },
+    "help":{
+        "description": "List all of my commands or, all the info about a specific command",
+        "setTitle": "Here's a list of all my commands:",
+        "addFields1": "You can send this to get info on a specific command:",
+        "addFields2_name": "Brackets meaning:",
+        "addFields2_value1": "[...] = argument not always needed",
+        "addFields2_value2": "<...> = Need argument",
+        "addFields3": "Planned in the future:",
+        "sent_DM": "I've sent you a DM with all my commands!",
+        "cannot_send": "Could not send help DM to",
+        "cannot_DM": "It seems like I can't DM you! Do you have DMs disabled?",
+        "not_valid": "That's not a valid command!",
+        "info": "Informations:",
+        "a": "Name:",
+        "b": "Aliases:",
+        "bb": "No aliases",
+        "c": "Description:",
+        "cc": "No description",
+        "d": "Usage:",
+        "e": "Cooldown:",
+        "ee": "No cooldown",
+        "f": "Useable only on server:",
+        "ff": "false",
+        "g": "Mininum permissions needed:",
+        "gg": "No permission needed"
+    },
+    "homework": {
+        "description": "Lists homeworks, tests and the times of online classes.",
+        "setTitle": "Homework, tests and online classes",
+        "t": "Tests:",
+        "o": "Online classes:",
+        "last_upd": "Last updated on:"
+    },
+    "kick":{
+        "description": "Kicks user out of the server",
+        "no_tag": "You need to tag a user in order to kick them!",
+        "have_tag": "From the server, you have successfully kicked:",
+        "cant_kick": "I was unable to kick the member \nEither due to missing permissions or role hierarchy",
+        "no_user_found": "That user isn't in this server!"
+    },
+    "music":{
+        "description": "Under coding !!!"
+    },
+    "ping":{
+        "description": "measures the bot latency and shows uptime",
+        "calc": "Calculating ping...",
+        "uptime": "Uptime: ",
+        "date": " day, - hour, - minute and - second"
+    },
+    "reboot":{
+        "description": "It restarts the bot (you have to close manually the cmd window)",
+        "reboot": "The bot was restarted by:",
+        "wrong_pass": "Sorry, wrong password!"
+    },
+    "reload":{
+        "description": "Reloads a command (only available while it's under development)",
+        "not_found": "There is no command with name or alias",
+        "found": "Command was reloaded!",
+        "error":"There was an error while reloading this command:"
+    },
+    "rss_reload":{
+        "description": "Manually reloads Webpage(RSS) news"
+    },
+    "server_info":{
+        "description": "\"Some\" server stats",
+        "setTitle": "Here's some stats of this server:",
+        "aF1_1": "Name and acronym:",
+        "aF1_2": "Region of the server:",
+        "aF1_3": "Member count:",
+        "aF1_4": "Owner of the server:",
+        "aF1_5": "Server created at:",
+        "aF2": "This bot on server:",
+        "aF22": "This bot name and time it joined the server:",
+        "aF3": "Server boosts:",
+        "aF33_1": "Number of server boosters:",
+        "aF33_2": "Server boost tier:",
+        "aF4": "More server stats:",
+        "aF44_1": "Available to access the server?",
+        "aF44_2": "Server system channel:",
+        "aF44_3": "Required user verification level:",
+        "aF44_4": "Explicit content filter:",
+        "aF44_5": "Partnered with Discord?"
+    },
+    "stop":{
+        "description": "Completely stops the bot",
+        "end_message": "The bot was stopped by:"
+    },
+    "t_c":{
+        "description": "List of the teachers names, subjects and the ways to reach them",
+        "setDescription": "Teachers names, subjects and contacts",
+        "setTitle": "Contacts:",
+        "last_upd": "Last updated on:"
+    },
+    "u_l":{
+        "description": "Some usefull link that could help you",
+        "setDescription": "Helpfull links for learning",
+        "setTitle": "Links:",
+        "last_upd": "Last updated on:"
+    },
+    "user_info":{
+        "description": "Show some user info about you or someone you pinged",
+        "setTitle": "Here some info about this account:",
+        "tagged_user": "Tagged user:",
+        "username": "Username:",
+        "D_tag": "Their Discord tag:",
+        "user_id": "User ID",
+        "user_cre_at": "User created at:",
+        "are_i_bot": "Is this a bot account?",
+        "last_message": "Last message:",
+        "last_message_id": "Last message channel name and ID"
+    },
+    "version":{
+        "description": "Some bot and development info( mostly future ideas + bugs)[, use user_info for bot info]",
+        "setTitle": "Some bot and development info",
+        "setDescription": "Bot done:",
+        "f_idea": "Future ideas:",
+        "to_fix": "To fix:",
+        "bugs": "Bugs:",
+        "lang": "Files: languages list:",
+        "info": "Files: informations list:",
+        "event": "Files: event listener list:",
+        "command": "Files: commands list:",
+        "last_upd": "Bot last updated"
+    },
+
+
+    "Events": "all the events here:",
+
+    "guildMemberAdd":{
+        "welcome": "welcome to the server!"
+    },
+    "guildMemberRemove":{
+        "goodbye": "left the server. We will miss you!"
+    },
+    "ready":{
+        "login": "Logged in as: ",
+        "bot_done": "Bot done = ",
+        "last_edit": "Last edited = ",
+        "start": "Bot started at: ",
+        "set_activity": "school, for help: ",
+        "start_lang": "Currently set language: ",
+        "prefix": "prefix: "
+    }
+}

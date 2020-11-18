@@ -1,0 +1,170 @@
+{
+    "t": "Igaz",
+    "f": "Hamis",
+    "and": "és",
+    
+    "index":{
+        "can_not_execute_DM": "Ez a parancs nem futtatható privát üzenetben!",
+        "no_argument": "nem adtál meg semmilyen feltételt!",
+        "proper_argument": "Helyes használat:",
+        "cooldown1": "Kérlek várj",
+        "cooldown2": "másodpercet mielőtt újra használnád a parancsot!",
+        "error": "Hiba a parancs futtatása közben: ",
+        "error_terminal": "Részletekért nézd meg a terminált!",
+        "error_or": "VAGY",
+        "error_bot_owner": "Értesítsd a hiba miatt a bot tulajdonosát.",
+        "perm_req": "Hiba, nem felelsz meg a kellő minimum engedélyhez, hogy használhasd a parancsot!"
+    },
+
+
+    "Commands": "Minden parancs itt:",
+
+    "ban":{
+        "description": "Kitilt a szerverről egy felhasználót",
+        "have_tag": "A szerverről sikeresen ki lett tiltva:",
+        "cant_kick": "Nem tudom tiltani a szerverről a megadott felhasználót!",
+        "no_user_found": "Ez a felhesználó nem létezik ezen a szerveren!",
+        "no_tag": "Meg kell adnod egy felhasználót, hogy kitiltsam a szerverről!"
+    },
+    "help":{
+        "description": "A használható parancsok listája, illetve minden információ egy megadott parancsról",
+        "setTitle": "Itt a lista az összes parancsomról:",
+        "addFields1": "Ezt el tudod küldeni hogy pontosabb infót adjak egy parancsomról:",
+        "addFields2_name": "Zárójelek jelentései:",
+        "addFields2_value1": "[...] = Paraméter nem szükséges, de megadható",
+        "addFields2_value2": "<...> = Kell paraméter",
+        "addFields3": "Jövőben tervezett:",
+        "sent_DM": "Privát üzenetbe elküldtem az összes parancsomat!",
+        "cannot_send": "Nem lehet privátba üzenni neki:",
+        "cannot_DM": "Nem tudok privátban üzenni! Ki lenne kapcsolva a privát üzenetek küldés?",
+        "not_valid": "Ez nem egy létező parancs!",
+        "info": "Információk:",
+        "a": "Név:",
+        "b": "Más nevei:",
+        "bb": "Nincs más neve",
+        "c": "Leírás:",
+        "cc": "Nincs leírása",
+        "d": "Használata:",
+        "e": "Időkorlát:",
+        "ee": "Nincs időkorláthoz kötve",
+        "f": "Csak szerveren használható:",
+        "ff": "Hamis",
+        "g": "Minimum engedély:",
+        "gg": "Nem szükséges"
+    },
+    "homework": {
+        "description": "Egy lista a házi feladatokról, tesztekről és online órák időpontjairól",
+        "setTitle": "Házi feladatok, tesztek és online órák",
+        "t": "Tesztek:",
+        "o": "Online órák:",
+        "last_upd": "Utoljára frissítve:"
+    },
+    "kick":{
+        "description": "Kirúg egy felhasználót a szerverről",
+        "no_tag": "Meg kell adnod egy felhasználót, hogy kirúgjam a szerverről!",
+        "have_tag": "A szerverről sikeresen ki lett rúgva:",
+        "cant_kick": "Nem tudom ki rúgni a szerverről ezt a felhasználót.",
+        "no_user_found": "Ez a felhesználó nem létezik ezen a szerveren!"
+    },
+    "music":{
+        "description": "Kódolás alatt !!!"
+    },
+    "ping":{
+        "description": "A bot válaszidejét számolja és az üzemidejét mutatja",
+        "calc": "Válaszidő számítása...",
+        "uptime": "Üzemidő: ",
+        "date": " nap, - óra, - perc és - másodperc"
+    },
+    "reboot":{
+        "description": "Újra indítja a botot (cmd ablakot manuálisan kell bezárni)",
+        "reboot": "A bot-ot újraindította:",
+        "wrong_pass": "Bocsi, rossz a jelszó!"
+    },
+    "reload":{
+        "description": "Újra betölt egy parancsot (Csak jogosultsággal és addig lesz jelen amíg fejlesztés alatt van a bot)",
+        "not_found": "Nincs parancs ilyen névvel",
+        "found": "Parancs újratöltve!",
+        "error":"Hiba a következő parancs újratöltése közben:"
+    },
+    "rss_reload":{
+        "description": "Manuálisan újratölti a weboldali (RSS) híreket"
+    },
+    "server_info":{
+        "description": "A szerverről ad néhány információt",
+        "setTitle": "Néhány információ a szerverről:",
+        "aF1_1": "Név és rövidítése:",
+        "aF1_2": "Szerver régiója:",
+        "aF1_3": "Felhasználók száma:",
+        "aF1_4": "Szerver tulajdonos:",
+        "aF1_5": "Szerver készítési ideje:",
+        "aF2": "Bot a szerveren:",
+        "aF22": "A bot neve és ideje amikor csatlakozott a szerverhez:",
+        "aF3": "Szerver boost:",
+        "aF33_1": "Szerver boost-olók száma:",
+        "aF33_2": "Szerver boost rangja:",
+        "aF4": "Többi szerver statisztika:",
+        "aF44_1": "Elérhető-e a szerver?",
+        "aF44_2": "Szerver rendszer csatornája:",
+        "aF44_3": "Szükséges felhasználói igazolási szint:",
+        "aF44_4": "Média tartalomszűrő:",
+        "aF44_5": "Discord partner?"
+    },
+    "stop":{
+        "description": "Teljesen leállítja a bot-ot",
+        "end_message": "A bot-ot leállította:"
+    },
+    "t_c":{
+        "description": "Felsorolja a tanárok neveit, a tantárgyaikat és az elérhetőségeiket",
+        "setDescription": "Tanárok nevei, tantárgyaik és elérhetőségeik",
+        "setTitle": "Elérhetőség:",
+        "last_upd": "Utoljára frissítve:"
+    },
+    "u_l":{
+        "description": "Néhány hasznos linkek amik jól jöhetnek",
+        "setDescription": "Hasznos linkek tanuláshoz",
+        "setTitle": "Linkek:",
+        "last_upd": "Utoljára frissítve:"
+    },
+    "user_info":{
+        "description": "Megmutat néhány információt rólad vagy arról akit megjelölsz",
+        "setTitle": "Néhány információ a felhasználóról:",
+        "tagged_user": "Megjelölt felhasználó:",
+        "username": "Felhasználónév:",
+        "D_tag": "Teljes Discord neve:",
+        "user_id": "Felhasználó azonosító (ID):",
+        "user_cre_at": "Regisztrációjának időpontja:",
+        "are_i_bot": "Ez egy bot?"
+    },
+    "version":{
+        "description": "Néhány bottal és a fejlesztésével kapcsolatos info( főként ötletek + hibák)[, user_info-val plusz infó a botról]",
+        "setTitle": "Néhány bot- és fejlesztési információ",
+        "setDescription": "Fejlesztési állapot: ",
+        "f_idea": "Ötletek:",
+        "to_fix": "Javítani:",
+        "bugs": "Hibák:",
+        "lang": "Nyelvi fájlok:",
+        "info": "Információs fájlok:",
+        "event": "Esemény modulok:",
+        "command": "Parancs modulok:",
+        "last_upd": "Bot utoljára frissítve"
+    },
+
+
+    "Events": "Minden esemény(?) itt:",
+
+    "guildMemberAdd":{
+        "welcome": "üdv a szerveren!"
+    },
+    "guildMemberRemove":{
+        "goodbye": "elhagyta a szervert. Hiányozni fogsz nekünk!"
+    },
+    "ready":{
+        "login": "Bejelentkezve mint: ",
+        "bot_done": "Bot kész = ",
+        "last_edit": "Utoljára változtatva = ",
+        "start": "Bot elindult: ",
+        "set_activity": "iskola, segítségért: ",
+        "start_lang": "Jelenlegi nyelv: ",
+        "prefix": "előjel: "
+    }
+}
